@@ -1,0 +1,546 @@
+*{margin: 0; padding: 0;}
+ol, ul{list-style: none;}
+a{text-decoration: none;}
+img{display: block;vertical-align: top;border: none;}
+body{background-color: #e3e3e3;}
+#header{
+	width: 100%;
+	height: 54px;
+	background: white;
+	position: relative;
+}
+#header .logo{
+	margin-left: 290px;
+	padding-top: 6px;
+	display: inline-block;
+}
+#header .net-group{
+	height: 54px;
+	line-height: 54px;
+	position: absolute;
+	right: 306px;
+	top: 0;
+}
+#header .net-group li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	white-space: normal;
+	padding: 0 8px;
+}
+#header .net-group li a{
+	color: #333;
+}
+#header .net-group li a:hover{
+	color: red;
+}
+#container{
+	width: 100%;
+	height: 2060px;
+}
+#container .banner{
+	width: 100%;
+	height: 1005px;
+	background: url(../img/bg-1-2.jpg) no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+.banner .perfect{
+	margin-left: -166px;
+	padding-top: 20px;
+}
+.banner .boyBg{
+	position: absolute;
+	top: -50px;
+	left: 587px;
+}
+.banner .ball{
+	position: absolute;
+	top: 670px;
+	left: 1230px;
+}
+.banner .audition{
+	position: absolute;
+	left: 228px;
+	top: 18px;
+}
+.banner .mainPage{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 1345px;
+	width: 130px;
+	height: 50px;
+	background: url(../img/home.png) no-repeat;
+}
+.banner .mainPage:hover{
+	background: url(../img/home.png) no-repeat 0 -51px;
+}
+.banner .getBack{
+	display: inline-block;
+	width: 590px;
+	height: 450px;
+	position: absolute;
+	left: 180px;
+	top: 130px;
+}
+.getBack img{
+	margin: 0 auto;
+}
+.getBack .playVideo{
+	display: inline-block;
+	width: 81px;
+	height: 85px;
+	position: absolute;
+	top: 320px;
+	left: 520px;
+	z-index: 3;
+	background: url(../img/play.png) no-repeat;
+}
+@keyframes circleAnimation{
+	0%{transform: rotate(0deg);}
+	50%{transform: rotate(180deg);}
+	100%{transform: rotate(360deg);}
+}
+@-webkit-keyframes circleAnimation{
+	0%{-webkit-transform: rotate(0deg);}
+	50%{-webkit-transform: rotate(180deg);}
+	100%{-webkit-transform: rotate(360deg);}
+}
+.getBack .playVideo span{
+	background: url(../img/circle.png) no-repeat;
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	animation: circleAnimation 1.2s linear infinite;
+}
+.banner .erweima{
+	position: absolute;
+	display: block;
+	width: 134px;
+	height: 157px;
+	color: white;
+	text-indent: 10px;
+	left: 260px;
+	top: 610px;
+}
+.banner .qrCon{
+	width: 132px;
+	height: 132px;
+	background: url(../img/qrcode-bg.png) no-repeat;
+}
+.banner .erweima img{
+	border-radius: 7px;
+}
+@keyframes animation1{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(120px);}
+}
+@-webkit-keyframes animation1{
+	0%{transform:translateY(0)}
+	100%{transform: translateY(120px);}
+}
+@-moz-keyframes animation1{
+	0%{transform:translateY(0)}
+	100%{transform: translateY(120px);}
+}
+@-ms-keyframes animation1{
+	0%{transform:translateY(0)}
+	100%{transform: translateY(120px);}
+}
+.erweima .saoTiao{
+	position: absolute;
+	top: 24px;
+	-webkit-animation:animation1 2s linear infinite alternate;
+}
+.banner .btnIos{
+	position: absolute;
+	display: inline-block;
+	width: 206px;
+	height: 63px;
+	background: url(../img/btn-ios.png) no-repeat;
+	top: 635px;
+	left: 400px;
+}
+.banner .btnAndorid{
+	position: absolute;
+	display: inline-block;
+	width: 206px;
+	height: 63px;
+	background: url(../img/btn-android-2.png) no-repeat;
+	top: 702px;
+	left: 400px;
+}
+.banner .btnAndorid:hover{
+	background: url(../img/btn-android-2.png) no-repeat 0 -62px;
+}
+.banner .anlibao{
+	position: absolute;
+	display: inline-block;
+	width: 215px;
+	height: 176px;
+	background: url(../img/libao.png) no-repeat;
+	top: 588px;
+	left: 605px;
+}
+.banner .huaban{
+	position: absolute;
+	display: block;
+	top: 750px;
+	left: 110px;
+	
+}
+.banner .anlibao:hover{
+	background: url(../img/libao.png) no-repeat 0 -184px;
+}
+#container .gameInfo{
+	width: 100%;
+	height: 1059px;
+	background: url(../img/bg-2-1.jpg) no-repeat;
+	position: relative;
+}
+.gameInfo .bigPrize{
+	margin: 0 auto;
+	padding: 30px 0 50px 0;
+}
+.gameInfo .bigPrize-list{
+	display: block;
+	width: 1395px;
+	height: 376px;
+	margin: 0 auto;
+	
+}
+.gameInfo .bigPrize-list li{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.gameInfo .timePrize{
+	margin: 0 auto;
+	padding: 54px 0 54px 0;
+}
+.gameInfo .timePrize-list{
+	display: block;
+	width: 1395px;
+	margin: 0 auto;
+}
+.gameInfo .timePrize-list li{
+	/*float: left;*/
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+}
+.gameInfo .timePrize-list .moreInfo{
+	display: block;
+	width: 116px;
+	height: 28px;
+	background: url(../img/view-bg.png) no-repeat;
+	text-align: center;
+	line-height: 28px;
+	color: red;
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	
+}
+.gameInfo .timePrize-list .moreInfo:hover{
+	color: black;
+	background: url(../img/view-bg.png) no-repeat 0 -28px;
+}
+.gameInfo .bigBall{
+	position: absolute;
+	top: 730px;
+	left: -20px;
+}
+.gameInfo .smallBall{
+	position: absolute;
+	top: 640px;
+	left: 1020px;
+}
+#footer{
+	width: 100%;
+	height: 1117px;
+	background: url(../img/bg-3-2.jpg) no-repeat;
+	position: relative;
+}
+#footer .footer-title{
+	margin: 0 auto;
+	padding: 40px 0 20px 0;
+	/*position: relative;*/
+}
+#footer .footer-aIcon{
+	position: absolute;
+	top: 20px;
+	left: 248px;
+}
+#footer .footer-boy{
+	position: absolute;
+	top: 125px;
+	right: 0;
+}
+#footer .gallery_container{
+	position: absolute;
+	top: 130px;
+	left: 420px;
+	width: 788px;
+	height: 567px;
+	margin: 0 auto;
+	z-index: 1;
+	
+}
+.threeD-gallery_wrap{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	perspective: 1000px;
+}
+#footer .gallery_container .gallery_wrap{
+	width: 788px;
+	height: 567px;
+}
+.threeD_gallery_item{
+	position: absolute;
+	width: 100%;
+	height: 100%;cursor: pointer;
+	transition: all .5s ease;
+}
+.gallery_out{
+	transform: rotateY(0) translateX(0) translateZ(0px) scale(0.6);
+	z-index: -1;
+	opacity: 0!important;
+}
+.gallery_left_middle{
+	z-index: 3;
+	transform: rotateY(55deg) translateX(-45px) translateZ(-364px) scale(0.64);
+}
+.gallery_right_middle{
+	z-index: 3;
+	transform: rotateY(-55deg) translateX(45px) translateZ(-364px) scale(0.64);
+}
+.front_side{
+	z-index: 5;
+	transform: rotate(0) translateX(0) translateZ(0px);
+}
+#footer .footer-copyRight{
+	display: block;
+	width: 804px;
+	height: 118px;
+	/*background: green;*/
+	margin: -26px auto;
+}
+#footer .clogo{
+	padding-top: 6px;
+}
+#footer .gIcon{
+	display: block;
+	margin-top: -38px;
+	margin-left: 130px;
+}
+#footer .aboutCom{
+	width: 522px;
+	font-size: 14px;
+	margin-left: 282px;
+	margin-top: -35px;
+	width: 522px;
+}
+#footer .aboutCom li{
+	display: inline-block;
+}
+#footer .footer-copyRight a{
+	color: black;
+	text-decoration: blink;
+}
+#footer .footer-copyRight p{
+	font-size: 14px;
+}
+.footer-copyRight .copyRight{
+	margin-left: 283px;
+	width: 200px;
+}
+.footer-copyRight .jubaoCenter{
+	display: block;
+	margin-left: 520px;
+	margin-top: -46px;
+	width: 230px;
+}
+.footer-copyRight .warning{
+	margin-top: 6px;
+}
+
+#floatWin{
+	position: fixed;
+	display: block;
+	width: 220px;
+	height: 385px;
+	top: 168px;
+	right: 0;
+	z-index: 10;
+	background: url(../img/pc.png) no-repeat;
+}
+#floatWin .wechatIcon{
+	position: absolute;
+	top: 198px;
+	left: 48px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+@keyframes animation2{
+	0%{transform: translateY(-5px);}
+	100%{transform: translateY(120px);}
+}
+@-moz-keyframes animation2{
+	0%{transform: translateY(-5px);}
+	100%{transform: translateY(120px);}
+}
+@-webkit-keyframes animation2{
+	/*0%{top:200px}
+	100%{top:316px}*/
+	0%{transform: translateY(-5px);}
+	100%{transform: translateY(120px);}
+}
+#floatWin .tiao{
+	position: absolute;
+	width: 135px;
+	top: 200px;
+	left: 46px;
+	-webkit-animation: animation2 2s linear infinite alternate;
+}
+#mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+	display: none;
+	background: #000;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	transition: opacity ease .3s;
+}
+
+.pop{
+	position: fixed;
+	z-index: 999999;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.pop .shadow{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #000;
+	opacity: .7;
+}
+.pop .content-haoli{
+	
+}
+.pop .window{
+	position: absolute;
+	width: 598px;
+	height: 540px;
+	left: 50%;
+	top: 50%;
+	margin-left: -299px;
+	margin-top: -70px;
+	opacity: 0;
+	display: none;
+	background: url(../img/dialog-bg.png) no-repeat;
+}
+.pop .close-btn{
+	position: absolute;
+	width: 59px;
+	height: 59px;
+	right: -65px;
+	top: 0;
+	background: url(../img/close.png) no-repeat;
+}
+.pop .close-btn:hover{
+	background: url(../img/close.png) no-repeat 0 -59px;
+}
+.pop .header{
+	height: 133px;
+	position: relative;
+	color: #fff;
+}
+.pop .header span{
+	font-size: 18px;
+	margin: 35px 0 5px 27px;
+	display: inline-block;
+}
+.pop .header h3{
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 27px;
+}
+.pop .header .qr-box{
+	position: absolute;
+	right: 19px;
+	top: 9px;
+}
+.pop .header .qr-box p{
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 3px;
+}
+.pop .header .qr-box .qrcode{
+	width: 94px;
+	height: 93px;
+	margin-left: 5px;
+	background: url(../img/qrcode-bg-2.png) no-repeat;
+}
+.pop .header .qr-box img{
+	width: 80px;
+	padding: 7px;
+}
+.pop .content{
+	padding: 18px 28px;
+	text-align: center;
+}
+.pop .content .block{
+	margin-bottom: 16px;
+}
+.pop .content .block h4{
+	font-size: 16px;
+	font-weight: 700;
+	color: #585858;
+	text-align: left;
+	margin-bottom: 3px;
+}
+.pop .content p{
+	font-size: 16px;
+	color: #585858;
+	line-height: 28px;
+	text-align: left;
+}
+
+.pop .prev-btn, .pop .next-ptn{
+	position: absolute;
+	width: 59px;
+	height: 59px;
+	left: 50%;
+	top: 50%;
+	margin-top: -30px;
+}
+
+.pop .prev-btn{
+	margin-left: -375px;
+	background: url(../img/prev.png) no-repeat;
+}
+.pop .prev-btn:hover{
+	background: url(../img/prev.png) no-repeat 0 -59px;
+}
+.pop .next-ptn{
+	margin-left: 315px;
+	background: url(../img/next.png) no-repeat;
+}
+.pop .next-ptn:hover{
+	background: url(../img/next.png) no-repeat 0 -59px;
+}
